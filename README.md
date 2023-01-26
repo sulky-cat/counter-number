@@ -2,6 +2,8 @@
 
 [Демо страница](https://sulky-cat.github.io/counter-number/demo)
 
+---
+
 ## html
 ```html
 <span class="digi"> 100 </span>
@@ -17,7 +19,6 @@
 * `data-duration` - время срабатывания анимации. По умолчанию 1.5с.
 
 ## js
-В настройках js также можно настроить этот коэффициент глубины 
 ```js
 new CounterNumber(document.querySelector('.element'), { })
 ``` 
@@ -28,6 +29,7 @@ new CounterNumber(document.querySelector('.element'), { })
 `rootmargin` - астройки для наблюдателя. По умолчанию `100`;
 `format` - функция форматирование числа. По умолчанию нет форматирования.
 
+---
 
 ## Пример js
 
